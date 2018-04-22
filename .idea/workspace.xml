@@ -178,6 +178,7 @@
       <find>drop</find>
       <find>concurre</find>
       <find>canMerge</find>
+      <find>Split</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
