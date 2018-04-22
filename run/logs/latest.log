@@ -1,0 +1,390 @@
+[20:00:50] [main/INFO] [GradleStart]: Extra: []
+[20:00:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/goodm/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[20:00:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:00:50] [main/INFO] [FML]: Forge Mod Loader version 14.23.2.2654 for Minecraft 1.12.2 loading
+[20:00:50] [main/INFO] [FML]: Java is Dynamic Code Evolution 64-Bit Server VM, version 1.8.0_161, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_161\jre
+[20:00:50] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[20:00:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[20:00:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[20:00:50] [main/INFO] [FML]: Found a command line coremod : pvp_mod.itemtraffic.coremod.ItemTrafficCoreMod
+[20:00:50] [main/ERROR] [FML]: Coremod pvp_mod.itemtraffic.coremod.ItemTrafficCoreMod: Unable to class load the plugin java.lang.ClassNotFoundException: pvp_mod.itemtraffic.coremod.ItemTrafficCoreMod
+[20:00:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:00:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[20:00:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[20:00:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:00:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:00:55] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[20:00:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:00:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:00:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[20:00:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:00:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:00:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[20:00:59] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player404
+[20:01:11] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[20:01:11] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[20:01:14] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Dynamic Code Evolution 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 132430056 bytes (126 MB) / 239128576 bytes (228 MB) up to 1869152256 bytes (1782 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13399 Compatibility Profile Context 15.200.1065.0' Renderer: 'AMD Radeon HD 7600G'
+[20:01:14] [main/INFO] [FML]: MinecraftForge v14.23.2.2654 Initialized
+[20:01:14] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:01:14] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[20:01:15] [main/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[20:01:15] [main/INFO] [FML]: Searching E:\modding\itemtraffic\run\mods for mods
+[20:01:16] [main/INFO] [FML]: Mod itemtraffic is missing the required element 'name'. Substituting itemtraffic
+[20:01:16] [main/WARN] [FML]: Mod itemtraffic is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[20:01:17] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 252523751 nanos
+[20:01:18] [main/INFO] [FML]: Forge Mod Loader has identified 13 mods to load
+[20:01:20] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, itemtraffic, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport] at CLIENT
+[20:01:20] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, itemtraffic, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport] at SERVER
+[20:01:23] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:itemtraffic, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
+[20:01:24] [main/INFO] [FML]: Processing ObjectHolder annotations
+[20:01:24] [main/INFO] [FML]: Found 1222 ObjectHolder annotations
+[20:01:24] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:01:24] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:01:24] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:01:25] [main/INFO] [BuildCraft]: 
+[20:01:25] [main/INFO] [BuildCraft]: Starting BuildCraft 7.99.16
+[20:01:25] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[20:01:25] [main/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[20:01:25] [main/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[20:01:25] [main/INFO] [BuildCraft]: Detailed Build Information:
+[20:01:25] [main/INFO] [BuildCraft]:   Branch 8.0.x
+[20:01:25] [main/INFO] [BuildCraft]:   Commit 00282663b80987050185376a9f354585854861e5
+[20:01:25] [main/INFO] [BuildCraft]:     Bump version down for release.
+[20:01:25] [main/INFO] [BuildCraft]:     committed by AlexIIL
+[20:01:25] [main/INFO] [BuildCraft]: 
+[20:01:25] [main/INFO] [BuildCraft]: Loaded Modules:
+[20:01:25] [main/INFO] [BuildCraft]:   - lib
+[20:01:25] [main/INFO] [BuildCraft]:   - core
+[20:01:25] [main/INFO] [BuildCraft]:   - builders
+[20:01:25] [main/INFO] [BuildCraft]:   - energy
+[20:01:25] [main/INFO] [BuildCraft]:   - factory
+[20:01:25] [main/INFO] [BuildCraft]:   - robotics
+[20:01:25] [main/INFO] [BuildCraft]:   - silicon
+[20:01:25] [main/INFO] [BuildCraft]:   - transport
+[20:01:25] [main/INFO] [BuildCraft]: Missing Modules:
+[20:01:25] [main/INFO] [BuildCraft]:   - compat
+[20:01:25] [main/INFO] [BuildCraft]: 
+[20:01:27] [main/INFO] [BuildCraft]: [debugger] Method found: World.getTileEntity = public net.minecraft.tileentity.TileEntity net.minecraft.world.World.getTileEntity(net.minecraft.util.math.BlockPos)
+[20:01:27] [main/INFO] [BuildCraft]: [debugger] Debugging not automatically enabled for all of buildcraft. Logging all possible debug options.
+[20:01:27] [main/INFO] [BuildCraft]:               To enable it for only logging messages add "-Dbuildcraft.debug=log" to your launch VM arguments
+[20:01:27] [main/INFO] [BuildCraft]:               To enable it for ALL debugging "-Dbuildcraft.debug=all" to your launch VM arguments
+[20:01:27] [main/INFO] [BuildCraft]:               To remove this message and all future ones add "-Dbuildcraft.debug=disable" to your launch VM arguments
+[20:01:27] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.messages add the option "-Dbuildcraft.lib.messages.debug=true" to your launch config as a VM argument (LOG).
+[20:01:27] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: AHEAD Target: null
+[20:01:27] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:01:27] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.3.2655
+[20:01:27] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[20:01:27] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.sprite.holder add the option "-Dbuildcraft.lib.sprite.holder.debug=true" to your launch config as a VM argument (LOG).
+[20:01:27] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: AHEAD Target: null
+[20:01:27] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.migrate add the option "-Dbuildcraft.lib.migrate.debug=true" to your launch config as a VM argument (LOG).
+[20:01:28] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.net.cache add the option "-Dbuildcraft.lib.net.cache.debug=true" to your launch config as a VM argument (LOG).
+[20:01:28] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.net.cache add the option "-Dbuildcraft.lib.net.cache.debug=true" to your launch config as a VM argument (COMPLEX).
+[20:01:28] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:01:28] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.registry add the option "-Dbuildcraft.lib.registry.debug=true" to your launch config as a VM argument (LOG).
+[20:01:29] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.model.holder add the option "-Dbuildcraft.lib.model.holder.debug=true" to your launch config as a VM argument (LOG).
+[20:01:29] [main/INFO] [BuildCraft]: [debugger] To enable debugging for silicon.facade add the option "-Dbuildcraft.silicon.facade.debug=true" to your launch config as a VM argument (LOG).
+[20:01:32] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.tile add the option "-Dbuildcraft.lib.tile.debug=true" to your launch config as a VM argument (LOG).
+[20:01:32] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.id_alloc add the option "-Dbuildcraft.lib.id_alloc.debug=true" to your launch config as a VM argument (LOG).
+[20:01:33] [main/INFO] [FML]: Applying holder lookups
+[20:01:33] [main/INFO] [FML]: Holder lookups applied
+[20:01:33] [main/INFO] [FML]: Applying holder lookups
+[20:01:33] [main/INFO] [FML]: Holder lookups applied
+[20:01:33] [main/INFO] [FML]: Applying holder lookups
+[20:01:33] [main/INFO] [FML]: Holder lookups applied
+[20:01:33] [main/INFO] [FML]: Applying holder lookups
+[20:01:33] [main/INFO] [FML]: Holder lookups applied
+[20:01:33] [main/INFO] [FML]: Injecting itemstacks
+[20:01:33] [main/INFO] [FML]: Itemstack injection complete
+[20:02:05] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[20:02:05] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[20:02:05] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:02:06] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[20:02:06] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[20:02:25] [main/INFO] [FML]: Max texture size: 16384
+[20:02:28] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[20:02:34] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.locale add the option "-Dbuildcraft.lib.locale.debug=true" to your launch config as a VM argument (LOG).
+[20:02:36] [main/INFO] [FML]: Applying holder lookups
+[20:02:36] [main/INFO] [FML]: Holder lookups applied
+[20:02:36] [main/INFO] [BuildCraft]: [debugger] To enable debugging for api.painting add the option "-Dbuildcraft.api.painting.debug=true" to your launch config as a VM argument (LOG).
+[20:02:36] [main/INFO] [BuildCraft]: [debugger] To enable debugging for api.rotation add the option "-Dbuildcraft.api.rotation.debug=true" to your launch config as a VM argument (LOG).
+[20:02:37] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.markers add the option "-Dbuildcraft.lib.markers.debug=true" to your launch config as a VM argument (LOG).
+[20:02:38] [main/INFO] [FML]: Injecting itemstacks
+[20:02:38] [main/INFO] [FML]: Itemstack injection complete
+[20:02:39] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.guide.loader add the option "-Dbuildcraft.lib.guide.loader.debug=true" to your launch config as a VM argument (LOG).
+[20:02:39] [main/INFO] [BuildCraft]: [debugger] To enable debugging for lib.markdown add the option "-Dbuildcraft.lib.markdown.debug=true" to your launch config as a VM argument (LOG).
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_gate)'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_pulsar)'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_light_sensor)'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcrafttransport:plug_lens)'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader.markdown] buildcrafttransport:plug_lens was not a valid item!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '{buildcrafttransport:plug_lens,1,16}'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader.markdown] buildcrafttransport:plug_facade was not a valid item!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '{buildcrafttransport:plug_facade,1,0,{preview:1b}}'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcraftsilicon:charging_table)'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide] Unknown source '(buildcraftsilicon:programming_table)'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/wood_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/cobblestone_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/Stone_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/quartz_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/iron_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/gold_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/clay_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/sandstone_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/void_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/obsidian_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_wood_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/lapis_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/daizuli_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/emzuli_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/stripes_item.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/wood_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/cobblestone_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/Stone_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/quartz_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/iron_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/gold_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/clay_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/sandstone_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/void_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/diamond_wood_fluid.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/wood_power.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/cobblestone_power.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/stone_power.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/quartz_power.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/gold_power.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/sandstone_power.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/plug_blocker.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcrafttransport:compat/buildcraft/guide/en_us/pipe/pipe_wire.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.markdown] Found deprecated element '$[special.all_crafting](buildcraftlib:guide)', it should be replaced with '<recipes_usages stack="buildcraftlib:guide"/>'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.markdown] Found deprecated element '$[special.new_page]', it should be replaced with '<new_page/>'
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/laser.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/assembly.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/integration.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftsilicon:compat/buildcraft/guide/en_us/block/advanced_crafting.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/WARN] [BuildCraft]: [lib.guide.loader] Unable to load guide page 'buildcraftcore:compat/buildcraft/guide/en_us/item/paintbrush.md' because we couldn't find it in any resource pack!
+[20:02:39] [main/INFO] [BuildCraft]: [lib.guide] Loaded 65 possible and 25 actual guide pages (40 not found) in 841ms.
+[20:02:41] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 13 mods
+[20:02:41] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[20:02:42] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[20:02:42] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[20:08:01] [main/INFO] [net.minecraft.world.storage.SaveFormatOld]: Deleting level New World
+[20:08:01] [main/INFO] [net.minecraft.world.storage.SaveFormatOld]: Attempt 1...
+[20:08:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[20:08:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[20:08:51] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:08:53] [Server thread/INFO] [FML]: Applying holder lookups
+[20:08:53] [Server thread/INFO] [FML]: Holder lookups applied
+[20:08:53] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@2e349d4d)
+[20:08:54] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement buildcraftcore:goggles
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'buildcraftcore:goggles'
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:133) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:150) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:294) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(JsonUtils.java:485) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1357) ~[ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:821) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1339) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1313) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:70) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:61) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:162) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:123) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:160) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:550) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:08:54] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement buildcrafttransport:pipe_logic
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'buildcrafttransport:plug_gate'
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:133) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:150) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:294) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(JsonUtils.java:485) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1357) ~[ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:821) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1339) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1313) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:70) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:61) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:162) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:123) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:160) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:550) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:08:54] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement buildcrafttransport:extended_logic
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'buildcrafttransport:plug_gate'
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:133) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:150) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:294) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(JsonUtils.java:485) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1357) ~[ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:821) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1339) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1313) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:70) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:61) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:162) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:123) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:160) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:550) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:08:54] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement buildcrafttransport:all_plugged_up
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'buildcrafttransport:plug_light_sensor'
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:133) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:150) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:294) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(JsonUtils.java:485) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1357) ~[ForgeHooks.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:821) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1339) [ForgeHooks.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1313) [ForgeHooks.class:?]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:70) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:61) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:162) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:123) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:160) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:550) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:08:54] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 530 advancements
+[20:08:55] [Server thread/WARN] [net.minecraft.world.WorldServer]: Unable to find spawn biome
+[20:08:55] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@2e349d4d)
+[20:08:55] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@2e349d4d)
+[20:08:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:08:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
+[20:08:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%
+[20:08:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 73%
+[20:08:59] [Thread-9/INFO] [itemtraffic]: Starting pipe system management thread
+[20:08:59] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:08:59] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:08:59] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 2, from 10
+[20:09:03] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[20:09:03] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[20:09:03] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,buildcraftlib@7.99.16,FML@8.0.99.99,buildcraftsilicon@7.99.16,buildcraftenergy@7.99.16,buildcrafttransport@7.99.16,forge@14.23.2.2654,buildcraftbuilders@7.99.16,mcp@9.42,buildcraftcore@7.99.16,itemtraffic@1.0,buildcraftrobotics@7.99.16,buildcraftfactory@7.99.16
+[20:09:03] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:09:03] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[20:09:03] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player404[local:E:4b483927] logged in with entity id 0 at (8.5, 4.0, 4.5)
+[20:09:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player404 joined the game
+[20:09:03] [Server thread/INFO] [BuildCraft]: [debugger] To enable debugging for lib.marker.full add the option "-Dbuildcraft.lib.marker.full.debug=true" to your launch config as a VM argument (COMPLEX).
+[20:09:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:09:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:09:07] [Thread-9/ERROR] [itemtraffic]: Error in pipe system management thread
+java.lang.NullPointerException: null
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$MapIterator.nextEntry(Long2ObjectOpenHashMap.java:636) ~[Long2ObjectOpenHashMap$MapIterator.class:?]
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$ValueIterator.next(Long2ObjectOpenHashMap.java:876) ~[Long2ObjectOpenHashMap$ValueIterator.class:?]
+	at riftomer.itemtraffic.pipesystem.PipeSystemManager.run(PipeSystemManager.java:29) [PipeSystemManager.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:09:07] [Thread-9/ERROR] [itemtraffic]: Error in pipe system management thread
+java.lang.NullPointerException: null
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$MapIterator.nextEntry(Long2ObjectOpenHashMap.java:636) ~[Long2ObjectOpenHashMap$MapIterator.class:?]
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$ValueIterator.next(Long2ObjectOpenHashMap.java:876) ~[Long2ObjectOpenHashMap$ValueIterator.class:?]
+	at riftomer.itemtraffic.pipesystem.PipeSystemManager.run(PipeSystemManager.java:29) [PipeSystemManager.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:09:07] [Thread-9/ERROR] [itemtraffic]: Error in pipe system management thread
+java.lang.NullPointerException: null
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$MapIterator.nextEntry(Long2ObjectOpenHashMap.java:636) ~[Long2ObjectOpenHashMap$MapIterator.class:?]
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$ValueIterator.next(Long2ObjectOpenHashMap.java:876) ~[Long2ObjectOpenHashMap$ValueIterator.class:?]
+	at riftomer.itemtraffic.pipesystem.PipeSystemManager.run(PipeSystemManager.java:29) [PipeSystemManager.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:09:07] [Thread-9/ERROR] [itemtraffic]: Error in pipe system management thread
+java.lang.NullPointerException: null
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$MapIterator.nextEntry(Long2ObjectOpenHashMap.java:636) ~[Long2ObjectOpenHashMap$MapIterator.class:?]
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$ValueIterator.next(Long2ObjectOpenHashMap.java:876) ~[Long2ObjectOpenHashMap$ValueIterator.class:?]
+	at riftomer.itemtraffic.pipesystem.PipeSystemManager.run(PipeSystemManager.java:29) [PipeSystemManager.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:09:07] [Thread-9/ERROR] [itemtraffic]: Error in pipe system management thread
+java.lang.NullPointerException: null
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$MapIterator.nextEntry(Long2ObjectOpenHashMap.java:636) ~[Long2ObjectOpenHashMap$MapIterator.class:?]
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$ValueIterator.next(Long2ObjectOpenHashMap.java:876) ~[Long2ObjectOpenHashMap$ValueIterator.class:?]
+	at riftomer.itemtraffic.pipesystem.PipeSystemManager.run(PipeSystemManager.java:29) [PipeSystemManager.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:09:07] [Thread-12/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] WARNING: BuildCraft 7.99.16 is in ALPHA!
+[20:09:07] [Thread-12/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]   Report BuildCraft bugs you find here
+[20:09:07] [Thread-12/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]   and include the BuildCraft version 7.99.16 in the description
+[20:09:07] [Thread-12/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT]   If you have performance problems then try disabling
+[20:09:07] [Thread-12/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] everything in the BuildCraft perfomance config section.
+[20:09:07] [Thread-9/ERROR] [itemtraffic]: Error in pipe system management thread
+java.lang.NullPointerException: null
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$MapIterator.nextEntry(Long2ObjectOpenHashMap.java:636) ~[Long2ObjectOpenHashMap$MapIterator.class:?]
+	at it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap$ValueIterator.next(Long2ObjectOpenHashMap.java:876) ~[Long2ObjectOpenHashMap$ValueIterator.class:?]
+	at riftomer.itemtraffic.pipesystem.PipeSystemManager.run(PipeSystemManager.java:29) [PipeSystemManager.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:09:08] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@92cf3d[id=d1fadcd5-f8ee-389b-ae76-2112e34d591e,name=Player404,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3177) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[20:09:09] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:09:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:09:10] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[20:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:09:10] [Thread-9/INFO] [itemtraffic]: Stopping pipe system management thread
+[20:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:09:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player404 lost connection: Server closed
+[20:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player404 left the game
+[20:09:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[20:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:09:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:09:11] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:09:12] [Server thread/INFO] [FML]: Applying holder lookups
+[20:09:12] [Server thread/INFO] [FML]: Holder lookups applied
+[20:09:12] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[20:09:12] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

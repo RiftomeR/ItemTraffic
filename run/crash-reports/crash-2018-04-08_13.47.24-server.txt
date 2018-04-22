@@ -1,0 +1,98 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 4/8/18 1:47 PM
+Description: Ticking block entity
+
+java.lang.ClassCastException: net.minecraft.tileentity.TileEntityChest cannot be cast to buildcraft.transport.tile.TilePipeHolder
+	at PipeBehaviourBasic.spreadPipeSystem(PipeBehaviourBasic.java:88)
+	at PipeBehaviourBasic.onTick(PipeBehaviourBasic.java:72)
+	at buildcraft.transport.pipe.Pipe.onTick(Pipe.java:217)
+	at buildcraft.transport.tile.TilePipeHolder.update(TilePipeHolder.java:249)
+	at net.minecraft.world.World.updateEntities(World.java:2004)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:840)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:741)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at PipeBehaviourBasic.spreadPipeSystem(PipeBehaviourBasic.java:88)
+	at PipeBehaviourBasic.onTick(PipeBehaviourBasic.java:72)
+	at buildcraft.transport.pipe.Pipe.onTick(Pipe.java:217)
+	at buildcraft.transport.tile.TilePipeHolder.update(TilePipeHolder.java:249)
+
+-- Block entity being ticked --
+Details:
+	Name: buildcrafttransport:pipe_holder // buildcraft.transport.tile.TilePipeHolder
+	Block type: ID #260 (tile.pipeHolder // buildcraft.transport.block.BlockPipeHolder)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (6,4,11), Chunk: (at 6,0,11 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Actual block type: ID #260 (tile.pipeHolder // buildcraft.transport.block.BlockPipeHolder)
+	Actual block data value: 0 / 0x0 / 0b0000
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2004)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player778'/0, l='New World', x=4.83, y=5.37, z=10.36]]
+	Chunk stats: ServerChunkCache: 295 Drop: 0
+	Level seed: -6195050207056998047
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 3;minecraft:air;127;decoration
+	Level spawn location: World: (8,4,8), Chunk: (at 8,0,8 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 878 game time, 878 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 152947 (now: false), thunder time: 93110 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:840)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:741)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Dynamic Code Evolution 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 180689816 bytes (172 MB) / 580567040 bytes (553 MB) up to 1869152256 bytes (1782 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.2.2654 13 mods loaded, 13 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID                  | Version      | Source                           | Signature |
+	|:--------- |:------------------- |:------------ |:-------------------------------- |:--------- |
+	| UCHIJAAAA | minecraft           | 1.12.2       | minecraft.jar                    | None      |
+	| UCHIJAAAA | mcp                 | 9.42         | minecraft.jar                    | None      |
+	| UCHIJAAAA | FML                 | 8.0.99.99    | forgeSrc-1.12.2-14.23.2.2654.jar | None      |
+	| UCHIJAAAA | forge               | 14.23.2.2654 | forgeSrc-1.12.2-14.23.2.2654.jar | None      |
+	| UCHIJAAAA | buildcraftlib       | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+	| UCHIJAAAA | buildcraftcore      | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+	| UCHIJAAAA | buildcrafttransport | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+	| UCHIJAAAA | itemtraffic         | 1.0          | itemtraffic_main                 | None      |
+	| UCHIJAAAA | buildcraftbuilders  | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+	| UCHIJAAAA | buildcraftenergy    | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+	| UCHIJAAAA | buildcraftfactory   | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+	| UCHIJAAAA | buildcraftrobotics  | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+	| UCHIJAAAA | buildcraftsilicon   | 7.99.15      | buildcraft-7.99.15.jar           | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player778'/0, l='New World', x=4.83, y=5.37, z=10.36]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: deobf.com.mod-buildcraft:buildcraft:7.99.16">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Could not find deobf.com.mod-buildcraft:buildcraft:7.99.16." />
+      <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/com/mod-buildcraft/buildcraft/7.99.16/buildcraft-7.99.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/com/mod-buildcraft/buildcraft/7.99.15/buildcraft-7.99.15-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/com/mod-buildcraft/buildcraft/7.99.16/buildcraft-7.99.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
